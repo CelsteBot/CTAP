@@ -1,0 +1,131 @@
+{
+    "HIDDEN-possible_states": [
+        "a_settings",
+        "a_menu",
+        "a_process_selection",
+        "a_file_picker",
+        "dd_config",
+        "pe_config",
+        "ee_config",
+        "a_processing",
+        "ee_connection_review",
+        "ee_template_choice",
+        "ee_template_review",
+        "ee_sending",
+        "a_file_save",
+        "a_finished"
+    ],
+    "HIDDEN-data_template": {
+        "flow": [
+            "a_process_selection",
+            "a_file_picker",
+            "a_processing",
+            "a_file_save",
+            "a_finished"
+        ],
+        "prt_path": "",
+        "emp_path": "",
+        "dd_settings": [
+            {
+                "field_name": "First Name",
+                "match_strength": 90
+            },
+            {
+                "field_name": "Last Name",
+                "match_strength": 90
+            },
+            {
+                "field_name": "Birth Date",
+                "match_strength": 90
+            },
+            {
+                "field_name": "Phone",
+                "match_strength": 90
+            },
+            {
+                "field_name": "Email",
+                "match_strength": 90
+            }
+        ],
+        "dd_adjacencies": 0,
+        "dd_scale_threshold": 2,
+        "dd_finished": false,
+        "pe_finished": false,
+        "ee_finished": false,
+        "processing_percent": 0.0,
+        "processing_status": "Loading Data...",
+        "processing_error": ""
+    },
+    "HIDDEN-template_update_fields": [
+        "dd_settings",
+        "dd_adjacencies",
+        "dd_scale_threshold"
+    ],
+    "default_path": "C:/Users/alexa/Desktop/PythonProjects/ExcelStuff/DeDupPython",
+    "ADVANCED-percent_map": [
+        0,
+        4,
+        100
+    ],
+    "ADVANCED-dedup_percent_map": [
+        0,
+        65,
+        100
+    ],
+    "ADVANCED-dd_huemap": [
+        0,
+        128,
+        0
+    ],
+    "ADVANCED-partner_evaluation_percent_map": [
+        0,
+        5,
+        65,
+        100
+    ],
+    "ADVANCED-employer_emails_percent_map": [
+        5,
+        65,
+        100
+    ],
+    "ADVANCED-dd_tmp_file_name": "dd_xl",
+    "HIDDEN-file_types": [
+        [
+            "Excel Workbook",
+            "*.xlsx"
+        ],
+        [
+            "Comma Seperated Values",
+            "*.csv"
+        ],
+        [
+            "All Files",
+            "*.*"
+        ]
+    ],
+    "HIDDEN-toggle_on": "Images/on.png",
+    "HIDDEN-toggle_off": "Images/off.png",
+    "HIDDEN-thread_threshold": 500,
+    "dd_default_settings": [
+        {
+            "field_name": "First Name",
+            "match_strength": 90
+        },
+        {
+            "field_name": "Last Name",
+            "match_strength": 90
+        },
+        {
+            "field_name": "Birth Date",
+            "match_strength": 90
+        },
+        {
+            "field_name": "Phone",
+            "match_strength": 90
+        },
+        {
+            "field_name": "Email",
+            "match_strength": 90
+        }
+    ]
+}
